@@ -1,0 +1,36 @@
+    #contacto { text-align: center; }
+    .contact-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: .8rem; margin-top: 1.5rem; margin-bottom: 1rem;
+    }
+    .contact-card {
+      background: var(--warm); border-radius: 18px; padding: 0.5rem 1.8rem;
+      box-shadow: 0 4px 18px rgba(107,63,42,.07);
+      transition: transform .3s;
+    }
+    .contact-card:hover { transform: translateY(-4px); }
+    .contact-icon { font-size: 2.2rem; margin-bottom: 1rem; }
+    .contact-card h3 {
+      font-family: 'Playfair Display', serif; font-size: 1.1rem;
+      color: var(--dark); margin-bottom: .6rem;
+    }
+    .contact-card p, .contact-card a {
+      font-size: .9rem; color: var(--mocha); line-height: 1.7;
+      text-decoration: none; font-weight: 300;
+    }
+    .contact-card a:hover { color: var(--brown); text-decoration: underline; }
+
+    .contact-info{
+      display: flex;
+      align-items: center;
+      gap: 8px;   
+    }
+
+    .contact-info img {
+      width: 60px; 
+      height: auto;
+    }
+
+    .contact-info .maps-icon {
+      width: 34px;
+    }
