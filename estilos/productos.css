@@ -1,4 +1,4 @@
-    #productos { background: var(--warm); }
+    #productos { background: #ede0ce; }
     .products-header { text-align: center; margin-bottom: 3.5rem; }
     .products-header .section-tag { justify-content: center; }
     .products-header .section-tag::before { display: none; }
