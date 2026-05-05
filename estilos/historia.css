@@ -43,10 +43,7 @@
   }
 
   .historia-text {
-    order: 1;
-    text-align: left;
-    flex: 0 0 460px;
-    max-width: 460px;
+    font-size: .9rem; color: var(--mocha); line-height: 1.6; font-weight: 300;
   }
 
   .historia img {

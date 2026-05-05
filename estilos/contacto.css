@@ -35,3 +35,13 @@
     .contact-info .maps-icon {
       width: 34px;
     }
+
+    .btn-encargo {
+      background: transparent; border: 2px solid #000000; color: #000000;
+      box-shadow: none; margin-left: 1rem;
+    }
+
+    .titulo-principal-contacto{
+      text-align:center;
+      margin-top:2.5rem;
+    }
