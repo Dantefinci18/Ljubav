@@ -32,14 +32,14 @@
     }
 
     .contact-info img {
-      width: 32px; 
+      width: 22px; 
       height: auto;
       image-rendering: -webkit-optimize-contrast;
       filter: invert(35%) sepia(40%) saturate(600%) hue-rotate(345deg) brightness(80%);
     }
 
     .contact-info .maps-icon {
-      width: 36px;
+      width: 26px;
       height: auto;
       image-rendering: -webkit-optimize-contrast;
       filter: invert(35%) sepia(40%) saturate(600%) hue-rotate(345deg) brightness(80%);
