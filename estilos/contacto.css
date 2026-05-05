@@ -7,6 +7,10 @@
       background: var(--warm); border-radius: 18px; padding: 0.5rem 1.8rem;
       box-shadow: 0 4px 18px rgba(107,63,42,.07);
       transition: transform .3s;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
     .contact-card:hover { transform: translateY(-4px); }
     .contact-icon { font-size: 2.2rem; margin-bottom: 1rem; }
@@ -28,12 +32,13 @@
     }
 
     .contact-info img {
-      width: 60px; 
+      width: 35px; 
       height: auto;
     }
 
     .contact-info .maps-icon {
-      width: 34px;
+      width: 40px;
+      height: auto;
     }
 
     .btn-encargo {
