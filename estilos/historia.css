@@ -23,8 +23,6 @@
 .historia-text {
   order: 2;
   font-family: 'Lato', sans-serif;
-  font-size: 1.05rem;
-  line-height: 1.8;
   color: #4a3f35;
   text-align: center;
   max-width: 600px;
@@ -33,6 +31,7 @@
   padding: 28px 24px;
   background-color: #fdf8f3;
   margin: 0 16px;
+  font-size: .9rem; color: var(--mocha); line-height: 1.6; font-weight: 300;
 }
 
 @media (min-width: 768px) {
