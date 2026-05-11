@@ -51,11 +51,16 @@
     /* ── HERO ── */
     .hero {
       min-height: 100vh;
-      background:
-        linear-gradient(to bottom, rgba(44,26,14,.35) 0%, rgba(44,26,14,.55) 100%),
-        url('imagenes/Cabecera.jpg') center/cover no-repeat;
+      position: relative; overflow: hidden;
+      background: linear-gradient(to bottom, rgba(44,26,14,.35) 0%, rgba(44,26,14,.55) 100%);
       display: flex; flex-direction: column; align-items: center; justify-content: center;
       text-align: center; padding: 2rem;
+    }
+    .hero-bg {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      z-index: -1;
     }
     .hero-badge {
       display: inline-block; border: 1.5px solid rgba(255,255,255,.55);
