@@ -68,8 +68,10 @@
       letter-spacing: .08em; text-transform: uppercase;
       text-decoration: none;
       transition: color .2s;
+      outline: none; -webkit-tap-highlight-color: transparent;
     }
     .btn-volver:hover { color: var(--brown); }
+    .btn-volver:focus-visible { color: var(--brown); text-decoration: underline; }
     .btn-volver svg { width: 1em; height: 1em; }
     @media (max-width: 768px) {
       .producto-grid {

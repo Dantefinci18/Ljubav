@@ -12,8 +12,10 @@
       box-shadow: 0 4px 22px rgba(107,63,42,.08);
       transition: transform .3s, box-shadow .3s;
       text-decoration: none; color: inherit; display: block; cursor: pointer;
+      outline: none; -webkit-tap-highlight-color: transparent;
     }
     .product-card:hover { transform: translateY(-6px); box-shadow: 0 12px 36px rgba(107,63,42,.16); }
+    .product-card:focus-visible { box-shadow: 0 0 0 3px var(--accent); }
     .product-img {
       height: 230px; width: 100%; object-fit: cover;
       background: var(--warm);
