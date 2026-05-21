@@ -40,22 +40,19 @@
       height: auto;
     }
 
-    .nav-links { display: flex; gap: 2.2rem; list-style: none; }
-    .nav-links a {
-      text-decoration: none; font-size: .85rem; letter-spacing: .12em;
-      text-transform: uppercase; color: var(--text); font-weight: 700;
-      transition: color .2s;
-    }
-    .nav-links a:hover { color: var(--mocha); }
-
     /* ── HERO ── */
     .hero {
       min-height: 100vh;
-      background:
-        linear-gradient(to bottom, rgba(44,26,14,.35) 0%, rgba(44,26,14,.55) 100%),
-        url('imagenes/Cabecera.jpg') center/cover no-repeat;
+      position: relative; overflow: hidden;
+      background: linear-gradient(to bottom, rgba(44,26,14,.35) 0%, rgba(44,26,14,.55) 100%);
       display: flex; flex-direction: column; align-items: center; justify-content: center;
       text-align: center; padding: 2rem;
+    }
+    .hero-bg {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      z-index: -1;
     }
     .hero-badge {
       display: inline-block; border: 1.5px solid rgba(255,255,255,.55);
@@ -90,6 +87,8 @@
       box-shadow: 0 6px 22px rgba(200,145,106,.45);
     }
     .btn:hover { background: var(--brown); transform: translateY(-2px); box-shadow: 0 10px 28px rgba(107,63,42,.45); }
+    .hero .btn { box-shadow: none; }
+    .hero .btn:hover { box-shadow: none; }
     .btn-outline {
       background: transparent; border: 2px solid #fff; color: #fff;
       box-shadow: none; margin-left: 1rem;

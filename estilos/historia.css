@@ -23,9 +23,9 @@
 .historia-text {
   order: 2;
   font-family: 'Lato', sans-serif;
+  color: #4a3f35;
   font-size: 1.05rem;
   line-height: 1.8;
-  color: #4a3f35;
   text-align: center;
   max-width: 600px;
   border: 1.5px solid #c9a96e;
@@ -43,7 +43,7 @@
   }
 
   .historia-text {
-    font-size: .9rem; color: var(--mocha); line-height: 1.6; font-weight: 300;
+    font-size: .9rem; line-height: 1.6;
   }
 
   .historia img {

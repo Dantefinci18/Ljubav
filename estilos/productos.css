@@ -30,4 +30,5 @@
       font-family: 'Playfair Display', serif; font-size: 1.4rem;
       color: var(--dark); margin-bottom: .6rem;
     }
+    .product-price { font-size: .85rem; color: var(--brown); font-weight: 600; margin-bottom: .5rem; }
     .product-desc { font-size: .9rem; color: var(--mocha); line-height: 1.6; font-weight: 300; }
