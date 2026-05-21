@@ -11,6 +11,7 @@
       background: var(--cream); border-radius: 18px; overflow: hidden;
       box-shadow: 0 4px 22px rgba(107,63,42,.08);
       transition: transform .3s, box-shadow .3s;
+      text-decoration: none; color: inherit; display: block; cursor: pointer;
     }
     .product-card:hover { transform: translateY(-6px); box-shadow: 0 12px 36px rgba(107,63,42,.16); }
     .product-img {
@@ -32,3 +33,4 @@
     }
     .product-price { font-size: .85rem; color: var(--brown); font-weight: 600; margin-bottom: .5rem; }
     .product-desc { font-size: .9rem; color: var(--mocha); line-height: 1.6; font-weight: 300; }
+    
