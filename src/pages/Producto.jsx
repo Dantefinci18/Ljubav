@@ -12,6 +12,7 @@ function Producto({tag, backLink}) {
   );
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     document.title = `${producto.nombre} · Ljubav`;
     return () => { document.title = "Ljubav"; };
   }, [producto]);
