@@ -55,6 +55,9 @@
       height: 1px;
       background: linear-gradient(90deg, var(--accent), transparent);
     }
+    .producto-aclaracion{
+      color: var(--brown)
+    }
     .producto-acciones {
       display: flex;
       align-items: center;

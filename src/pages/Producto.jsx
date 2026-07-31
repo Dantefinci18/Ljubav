@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { productos } from "../data/productos";
 import { productosDiaDelNinio } from "../data/productosDiaDelNinio";
 import '../estilos/producto.css'
@@ -59,7 +59,7 @@ function Producto({tag, backLink}) {
               {producto.descripcion}
             </p>
           <div className="producto-divider"></div>
-
+          <div className="producto-aclaracion"><strong>IMPORTANTE:</strong> {producto.aclaracion}</div>
           <div className="producto-acciones">
 
             <a className="btn" href={`https://wa.me/5491121772084?text=${mensaje}`} target="_blank"> 
@@ -67,10 +67,10 @@ function Producto({tag, backLink}) {
                 Encargar Ahora 
             </a>
 
-            <Link to={backLink} className="btn-volver">
+            <a href={backLink} className="btn-volver">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
               Volver
-            </Link>
+            </a>
           </div>
         </div>
       </div>
