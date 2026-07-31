@@ -15,9 +15,17 @@ function Producto() {
     return () => { document.title = "Ljubav"; };
   }, [producto]);
 
+  const mensajeProducto = null;
+
+  if (producto.tipo){
+    mensajeProducto = `${producto.tipo}: ${producto.nombre}\n`
+  }else{
+    mensajeProducto = `${producto.nombre}`
+  }
+
   const mensaje = encodeURIComponent(
     "Hola Fiore, quiero encargar\n" + 
-    `${producto.tipo}: ${producto.nombre}\n` +
+    `${mensajeProducto}\n` +
     "Fecha y hora de retiro:\n" +
     "Nombre:\n" +
     "Aclaraciones:"

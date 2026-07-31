@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&display=swap');
+
+#dia-del-ninio{ background-color: #e1cfbb;}
+#dia-del-ninio .section-title { font-family: 'EB Garamond', serif; }
+#dia-del-ninio h2{font-size: 1rem; color: var(--brown); }
