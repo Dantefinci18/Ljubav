@@ -21,7 +21,7 @@ function Productos(){
                 <a href="https://wa.me/c/5491121772084" 
                     target="_blank" class="btn" 
                     style={{background:"#fff", color:"#7a4a2a", border:"2px solid #7a4a2a", boxShadow:"none"}}>
-                         Mirá el catálogo completo
+                        Mirá el catálogo completo
                 </a>
                 </div>
             </div>
