@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import '../estilos/product-card.css'
 
-function ProductCard({ producto }) {
+function ProductCard({ tag, producto }) {
   return (
-    <Link className="product-card" to={`/productos/${producto.id}`}>
+    <Link className="product-card" to={`/${tag}/${producto.id}`}>
       <img className="product-img" src={producto.rutaImagen} alt={producto.nombre} />
 
       <div className="product-body">

@@ -9,15 +9,7 @@ export class Producto{
         this.aclaracion = aclaracion;
     }
 
-    get tag(){
-        return "Nuestra pastelería";
-    }
-
-    get backLink(){
-        return "/#productos";
-    }
-
-    obtenerMensajeDelPrecio(){
-        return `desde $${this._precio.toLocaleString("es-AR")}`
+    get obtenerMensajeDelPrecio(){
+        return `Desde $${this._precio.toLocaleString("es-AR")}`
     }
 }

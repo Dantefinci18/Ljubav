@@ -15,7 +15,7 @@ function DiaDelNinio(){
                  <div className="products-grid">
                 {
                     productosDiaDelNinio.map(producto => (
-                    <ProductCard key={producto.id} producto={producto}/>
+                    <ProductCard key={producto.id} tag={"especial-dia-del-ninio"} producto={producto}/>
                     ))
                 }
                 </div>

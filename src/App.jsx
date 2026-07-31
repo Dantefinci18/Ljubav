@@ -27,8 +27,13 @@ function App(){
 
 
         <Route
-          path="/productos/:id"
-          element={<Producto />}
+          path="/nuestra-pasteleria/:id"
+          element={<Producto tag="Nuestra Pastelería" backLink="/#productos"/>}
+        />
+
+        <Route
+          path="/especial-dia-del-ninio/:id"
+          element={<Producto tag="ESPECIAL DÍA DEL NIÑO" backLink="/#dia-del-ninio"/>}
         />
 
       </Routes>

@@ -13,7 +13,7 @@ function Productos(){
                 <div className="products-grid">
                 {
                     productos.map(producto => (
-                    <ProductCard key={producto.id} producto={producto}/>
+                    <ProductCard key={producto.id} tag={"nuestra-pasteleria"} producto={producto}/>
                     ))
                 }
                 </div>

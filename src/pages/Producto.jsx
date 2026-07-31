@@ -4,7 +4,7 @@ import { productos } from "../data/productos";
 import { productosDiaDelNinio } from "../data/productosDiaDelNinio";
 import '../estilos/producto.css'
 
-function Producto() {
+function Producto({tag, backLink}) {
   const { id } = useParams();
 
   const producto = [...productos, ...productosDiaDelNinio].find(
@@ -43,7 +43,7 @@ function Producto() {
         </div>
         <div className="producto-info">
           <div className="producto-tag">
-            {producto.tag}
+            {tag}
           </div>
 
           <h1 className="producto-nombre">
@@ -67,7 +67,7 @@ function Producto() {
                 Encargar Ahora 
             </a>
 
-            <Link to={producto.backLink} className="btn-volver">
+            <Link to={backLink} className="btn-volver">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
               Volver
             </Link>
