@@ -12,7 +12,7 @@ function ProductCard({ producto }) {
         </div>
 
         <div className="product-price">
-          desde ${producto.precio.toLocaleString("es-AR")}
+          {producto.obtenerMensajeDelPrecio}
         </div>
 
         <div className="product-desc">

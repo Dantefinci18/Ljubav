@@ -1,12 +1,13 @@
 import { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { productos } from "../data/productos";
+import { productosDiaDelNinio } from "../data/productosDiaDelNinio";
 import '../estilos/producto.css'
 
 function Producto() {
   const { id } = useParams();
 
-  const producto = productos.find(
+  const producto = [...productos, ...productosDiaDelNinio].find(
     p => p.id === id
   );
 
@@ -15,9 +16,17 @@ function Producto() {
     return () => { document.title = "Ljubav"; };
   }, [producto]);
 
+  let mensajeProducto = "";
+
+  if(producto.tipo){
+    mensajeProducto = `${producto.tipo}: ${producto.nombre}\n`
+  }else{
+    mensajeProducto = `${producto.nombre}\n`
+  }
+  
   const mensaje = encodeURIComponent(
     "Hola Fiore, quiero encargar\n" + 
-    `${producto.tipo}: ${producto.nombre}\n` +
+    mensajeProducto +
     "Fecha y hora de retiro:\n" +
     "Nombre:\n" +
     "Aclaraciones:"
@@ -34,7 +43,7 @@ function Producto() {
         </div>
         <div className="producto-info">
           <div className="producto-tag">
-            Nuestra pastelería
+            {producto.tag}
           </div>
 
           <h1 className="producto-nombre">
@@ -42,14 +51,14 @@ function Producto() {
           </h1>
 
           <div className="producto-precio">
-            desde ${producto.precio.toLocaleString("es-AR")}
+            {producto.obtenerMensajeDelPrecio}
           </div>
 
           <div className="producto-divider"/>
             <p className="producto-desc">
               {producto.descripcion}
             </p>
-          <div class="producto-divider"></div>
+          <div className="producto-divider"></div>
 
           <div className="producto-acciones">
 
@@ -58,8 +67,8 @@ function Producto() {
                 Encargar Ahora 
             </a>
 
-            <Link to="/#productos" className="btn-volver">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+            <Link to={producto.backLink} className="btn-volver">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
               Volver
             </Link>
           </div>
