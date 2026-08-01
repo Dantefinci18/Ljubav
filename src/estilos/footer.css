@@ -1,0 +1,7 @@
+    footer {
+      background: var(--dark); color: rgba(250,246,241,.55);
+      text-align: center; padding: 2.2rem 1.5rem;
+      font-size: .82rem; letter-spacing: .06em;
+    }
+    footer strong { color: var(--accent); }
+    .footer-heart { color: #e57373; }
