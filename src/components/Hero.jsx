@@ -12,7 +12,7 @@ function Hero(){
     return (
         <section className="hero" id="inicio">
             <img src="/imagenes/Cabecera.webp" className="hero-bg" height={1440} width={1080}/>
-            <img src="/imagenes/titulo_ljubav.webp" className="hero-titulo" width={445} height={301}/>
+            <img src="/imagenes/titulo_ljubav.webp" className="hero-titulo" fetchPriority="high" width={445} height={301}/>
             <h2> Pastelería artesanal de autor </h2>
             <p> Hacé tu pedido con 48hs de anticipación y retirá en nuestro local de Nuñez.</p>
             <a className="btn" href={`https://wa.me/5491121772084?text=${mensaje}`}> 

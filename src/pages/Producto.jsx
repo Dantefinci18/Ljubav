@@ -17,13 +17,7 @@ function Producto({tag, backLink}) {
     return () => { document.title = "Ljubav"; };
   }, [producto]);
 
-  let mensajeProducto = "";
-
-  if(producto.tipo){
-    mensajeProducto = `${producto.tipo}: ${producto.nombre}\n`
-  }else{
-    mensajeProducto = `${producto.nombre}\n`
-  }
+  const mensajeProducto = producto.tipo ? `${producto.tipo}: ${producto.nombre}\n`: `${producto.nombre}\n`;
   
   const mensaje = encodeURIComponent(
     "Hola Fiore, quiero encargar\n" + 
