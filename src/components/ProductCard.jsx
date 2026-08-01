@@ -4,7 +4,7 @@ import '../estilos/product-card.css'
 function ProductCard({ tag, producto }) {
   return (
     <Link className="product-card" to={`/${tag}/${producto.id}`}>
-      <img className="product-img" src={producto.rutaImagen} alt={producto.nombre} />
+      <img className="product-img" src={producto.rutaImagen} alt={producto.nombre} width={756} height={567} />
 
       <div className="product-body">
         <div className="product-name">

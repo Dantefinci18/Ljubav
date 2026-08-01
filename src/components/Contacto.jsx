@@ -27,13 +27,13 @@ function Contacto(){
                 </div>
                 <div className="contact-card">
                     <p className="contact-info">
-                    <img src="imagenes/maps.webp" className="maps-icon" alt="Logo de Maps" />
+                    <img src="imagenes/maps.webp" className="maps-icon" alt="Logo de Maps" height={35} width={38} />
                     <a href="https://www.google.com/maps/place/Ljubav+Caffe/@-34.5456563,-58.4688823,17z/data=!3m1!4b1!4m6!3m5!1s0x95bcb7b69e4a7573:0xfbdcc5435d002089!8m2!3d-34.5456563!4d-58.4663074!16s%252Fg%252F11w29bymr1?entry=ttu&g_ep=EgoyMDI2MDQyOS4wIKXMDSoASAFQAw%25" target="_blank">Arcos 3805, Núñez</a>
                     </p>
                 </div>
                 <div className="contact-card">
                     <p className="contact-info">
-                    <img src="imagenes/ig.webp" alt="Logo de Instagram" />
+                    <img src="imagenes/ig.webp" alt="Logo de Instagram" height={40} width={35}/>
                     <a href="https://www.instagram.com/ljubav.pasticceria?igsh=YjZtYnBuNXRlNmo2" target="_blank">@ljubav.pasticceria</a>
                     </p>
                 </div>

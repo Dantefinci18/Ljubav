@@ -19,7 +19,7 @@ function Navbar() {
     <nav id="navbar">
 
         <a className="nav-logo" href="/" aria-label="Ir al inicio de Ljubav">
-            <img src="/imagenes/titulo_en_negro.webp" className="nav-logo-titulo" alt="Ljubav"/>
+            <img src="/imagenes/titulo_en_negro.webp" className="nav-logo-titulo" alt="Ljubav" height={58} width={140}/>
         </a>
 
     </nav>
