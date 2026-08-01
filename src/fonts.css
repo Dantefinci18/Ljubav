@@ -80,3 +80,28 @@
   font-weight: 700;
   src: url('../fonts/lato-v25-latin-700.woff2') format('woff2'); 
 }
+
+@font-face {
+  font-display: swap; 
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/eb-garamond-v33-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'EB Garamond';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/eb-garamond-v33-italic-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/eb-garamond-v33-latin-700.woff2') format('woff2'); 
+}
+
