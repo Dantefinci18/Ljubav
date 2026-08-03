@@ -54,7 +54,12 @@ function Producto({tag, backLink}) {
               {producto.descripcion}
             </p>
           <div className="producto-divider"></div>
-          <div className="producto-aclaracion"><strong>IMPORTANTE:</strong> {producto.aclaracion}</div>
+          
+          {
+            producto.aclaracion && 
+              <div className="producto-aclaracion"><strong>IMPORTANTE:</strong> {producto.aclaracion}</div>
+          }
+
           <div className="producto-acciones">
 
             <a className="btn" href={`https://wa.me/5491121772084?text=${mensaje}`} target="_blank"> 
