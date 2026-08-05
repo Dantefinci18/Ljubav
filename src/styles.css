@@ -31,9 +31,4 @@
 
     .divider { height: 1px; background: linear-gradient(90deg, transparent, var(--accent), transparent); margin: 0 auto; max-width: 300px; }
 
-    @media(max-width: 768px) {
-      #nosotros .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
-      .gallery-grid { grid-template-columns: 1fr 1fr; }
-      .gallery-grid .g1 { grid-column: 1 / 3; }
-    }
     
