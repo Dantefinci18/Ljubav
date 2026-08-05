@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { productos } from "../data/productos";
 import { productosDiaDelNinio } from "../data/productosDiaDelNinio";
 import '../estilos/producto.css'
+import WhatsAppButton from "../components/WhatsAppButton";
 
 function Producto({tag, backLink}) {
   const { id } = useParams();
@@ -74,6 +75,7 @@ function Producto({tag, backLink}) {
           </div>
         </div>
       </div>
+      <WhatsAppButton/>
     </div>
   );
 }

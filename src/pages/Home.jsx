@@ -3,6 +3,7 @@ import Contacto from "../components/Contacto";
 import Historia from "../components/Historia";
 import Productos from "../components/Productos";
 import DiaDelNinio from "../components/DiaDelNinio";
+import WhatsAppButton from "../components/WhatsAppButton"
 
 function Home(){
     return (
@@ -12,6 +13,7 @@ function Home(){
             <Productos />
             <Historia />
             <Contacto />
+            <WhatsAppButton />
         </>
     );
 };

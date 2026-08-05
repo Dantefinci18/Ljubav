@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 import Producto from "./pages/Producto";
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer";
-import WhatsAppButton from "./components/WhatsAppButton";
+import Admin from "./pages/Admin";
 
 
 function App(){
@@ -36,10 +36,11 @@ function App(){
           element={<Producto tag="ESPECIAL DÍA DEL NIÑO" backLink="/#dia-del-ninio"/>}
         />
 
+        <Route path="/admin" element={<Admin/>}/>
+
       </Routes>
 
       <Footer />
-      <WhatsAppButton />
     </BrowserRouter>
 
   );
