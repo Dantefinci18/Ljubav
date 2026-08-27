@@ -9,7 +9,6 @@ function Home(){
     return (
         <>
             <Hero />
-            <DiaDelNinio />
             <Productos />
             <Historia />
             <Contacto />
