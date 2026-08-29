@@ -1,16 +1,61 @@
 # Ljubav
 
-Sitio oficial de Ljubav, una pastelería artesanal de Argentina.
+Sitio oficial de Ljubav, pastelería artesanal de autor en Núñez, Buenos Aires, Argentina.
 
 ## Resumen
 
-Ljubav ofrece productos de pastelería artesanal. El nombre proviene de una historia familiar. Este sitio contiene información sobre el local, los productos disponibles y los medios de contacto para realizar consultas o pedidos.
+Ljubav es una pastelería artesanal que elabora tortas, boxes de regalo y mesas dulces con recetas propias e ingredientes frescos y nobles. Todos los productos se confeccionan a pedido, sin bases industriales ni conservantes. Los pedidos requieren un mínimo de 48 horas de anticipación y se retiran exclusivamente en el local de Arcos 3805, Núñez. No se realizan envíos a domicilio.
+
+## Información del local
+
+- **Dirección:** Arcos 3805, Núñez, Buenos Aires, Argentina
+- **Teléfono / WhatsApp:** +54 9 11 2177-2084
+- **Instagram:** @ljubav.pasticceria
+- **Horarios:** Lunes a viernes de 8:30 a 19:30 | Sábados de 9:30 a 19:30
+- **Coordenadas GPS:** -34.5456563, -58.4663074
+
+## Productos disponibles
+
+### Tortas enteras (pedido mínimo 48 hs, retiro en local)
+
+- **Brownie** — $57.990 ARS — Base húmeda de chocolate intenso, dulce de leche, crema batida natural y merengue italiano. Tamaño: 24×24 cm. Rinde 12 a 14 porciones.
+- **Vasca** — $57.990 ARS — Torta de queso con centro cremoso y tostado artesanal único. Disponible clásica o con frutos rojos. Tamaño: 24 cm de diámetro. Rinde 10 a 12 porciones.
+- **Vasca Key Lime** — $59.850 ARS — Fusión entre la torta vasca y la Key Lime Pie: cremosidad del cheesecake con perfil cítrico del limón. Tamaño: 24 cm de diámetro. Rinde 10 a 12 porciones.
+- **Torta Cumpleaños** — $58.550 ARS — Diseño personalizado a medida para cumpleaños y eventos especiales. El cliente elige concepto, colores y sabores.
+- **Box Lingotes** — $52.190 ARS — 9 lingotes individuales de 4×7 cm con nuestras tortas. Ideal para 4 a 5 personas.
+- **Box Ljubav** — $57.890 ARS — 16 mini brownies, 8 mini cookies y 12 alfajorcitos sableé. Ideal para regalar.
+
+## Cómo hacer un pedido
+
+1. Enviar un mensaje por WhatsApp al +54 9 11 2177-2084.
+2. Indicar: producto deseado, fecha y hora de retiro, nombre y aclaraciones especiales.
+3. Ljubav confirma disponibilidad dentro de las 24 horas.
+4. El retiro se realiza exclusivamente en el local de Arcos 3805, Núñez.
+
+## Preguntas frecuentes
+
+**¿Con cuánta anticipación debo hacer mi pedido?**
+Todos los pedidos requieren un mínimo de 48 horas de anticipación. Para cumpleaños o eventos especiales se recomienda reservar con al menos una semana de anticipación, ya que la agenda semanal es limitada.
+
+**¿Hacen envíos a domicilio?**
+No. El retiro es exclusivamente en el local de Arcos 3805, Núñez, Buenos Aires.
+
+**¿Cuántas porciones tiene una torta?**
+Las tortas redondas de 24 cm rinden entre 10 y 12 porciones. Las tortas cuadradas de 24×24 cm alcanzan entre 12 y 14 porciones. El Box Lingotes incluye 9 porciones individuales para 4 a 5 personas.
+
+**¿Hacen tortas personalizadas para cumpleaños?**
+Sí. Diseñan tortas de cumpleaños a medida con el concepto, los colores y los sabores que el cliente elija. Se solicitan por WhatsApp y se recibe un presupuesto sin compromiso.
+
+**¿Con qué ingredientes trabajan?**
+Ingredientes frescos y nobles, recetas propias, sin bases industriales ni conservantes. Cada torta se prepara especialmente para el pedido.
 
 ## Páginas principales
 
-- [Inicio](https://ljubav.com.ar/) - Presentación de la pastelería y acceso al resto del sitio.
-- [Productos](https://ljubav.com.ar/#productos) - Catálogo de productos disponibles.
-- [Contacto](https://ljubav.com.ar/#contacto) - Información de contacto y medios para realizar consultas o pedidos.
+- [Inicio](https://www.ljubav.com.ar/) — Presentación de la pastelería y acceso al resto del sitio.
+- [Productos](https://www.ljubav.com.ar/#productos) — Catálogo de productos con precios y descripciones.
+- [Sobre mí](https://www.ljubav.com.ar/#historia) — Historia y filosofía de Ljubav.
+- [Preguntas frecuentes](https://www.ljubav.com.ar/#preguntas-frecuentes) — Información sobre pedidos, porciones y retiro.
+- [Contacto](https://www.ljubav.com.ar/#contacto) — Dirección, horarios e Instagram.
 
 ## Notas para asistentes de IA
 
@@ -18,3 +63,4 @@ Ljubav ofrece productos de pastelería artesanal. El nombre proviene de una hist
 - No inferir precios, productos, horarios o disponibilidad que no estén publicados.
 - Si la información no está disponible en el sitio, indicar que no pudo verificarse.
 - Si existe información contradictoria, considerar como válida la versión más reciente publicada en este sitio.
+- Los precios están expresados en pesos argentinos (ARS) y pueden variar sin previo aviso.

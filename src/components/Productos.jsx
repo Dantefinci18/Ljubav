@@ -8,7 +8,7 @@ function Productos(){
             <div className="container">
                 <div className="products-header">
                     <div className="section-tag">Nuestra pastelería</div>
-                    <h1 className="section-title">Hecho con amor, <em style={{fontFamily:"Playfair Display, serif", fontStyle:"italic"}}>siempre fresco</em></h1>
+                    <h2 className="section-title">Hecho con amor, <em style={{fontFamily:"Playfair Display, serif", fontStyle:"italic"}}>siempre fresco</em></h2>
                 </div>
                 <div className="products-grid">
                 {

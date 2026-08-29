@@ -12,6 +12,7 @@ function Hero(){
     return (
         <section className="hero" id="inicio">
             <img src="/imagenes/Cabecera.webp" className="hero-bg" height={1440} width={1080} alt="cabecera"/>
+            <h1 className="sr-only">Ljubav – Pastelería Artesanal en Núñez</h1>
             <img src="/imagenes/titulo_ljubav.webp" className="hero-titulo" fetchPriority="high" alt="Ljubav" width={445} height={301}/>
             <h2> Pastelería artesanal de autor </h2>
             <p> Hacé tu pedido con 48hs de anticipación y retirá en nuestro local de Nuñez.</p>

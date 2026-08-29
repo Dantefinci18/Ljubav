@@ -9,8 +9,8 @@ function DiaDelNinio(){
             <div className="container">
                 <div className="products-header">
                     <div className="section-tag">ESPECIAL DÍA DEL NIÑO</div>
-                    <h1 className="section-title">Sabor a juego, risas y fantasía</h1>
-                    <h2>Hacé tu pedido hasta el 12/08 para retirar por el local el 15/8.</h2>
+                    <h2 className="section-title">Sabor a juego, risas y fantasía</h2>
+                    <h3>Hacé tu pedido hasta el 12/08 para retirar por el local el 15/8.</h3>
                 </div>
                  <div className="products-grid">
                 {
