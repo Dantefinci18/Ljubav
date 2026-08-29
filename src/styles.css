@@ -28,6 +28,11 @@
     .section-sub {
       font-size: 1rem; color: var(--mocha); font-weight: 300; max-width: 480px; line-height: 1.7;
     }
+    
+    .sr-only {
+      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+    }
 
     .divider { height: 1px; background: linear-gradient(90deg, transparent, var(--accent), transparent); margin: 0 auto; max-width: 300px; }
 
